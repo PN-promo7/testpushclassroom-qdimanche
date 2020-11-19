@@ -1,0 +1,106 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+h1 {
+  font-size: 1.8em;
+}
+
+h2 {
+text-align: center;
+}
+
+  .container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+
+nav {
+  margin-bottom: 20px;
+}
+
+header {
+  width: 100%;
+}
+
+
+section {
+ display: flex;
+ flex-direction: column;
+}
+
+/* Nav */
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.inline_nav {
+  display: none;
+}
+
+.menu-toggle {
+  display: block;
+  border:0;
+  background-color: white;
+  margin-right: 10px;
+}
+
+/* Header */
+
+.img_header {
+height:150px;
+}
+
+.header_flex {
+  padding-top:  30px;
+}
+
+
+/* Tendances */
+
+.tendances_block_1 {
+  flex-direction: column;
+  margin-bottom:0px;
+}
+
+.tendances_block_2 {
+  flex-direction: column;
+  margin-bottom:0px;
+}
+
+
+.tendances_article {
+  margin-bottom: 40px;
+  width:100%
+}
+
+.tendances_article img {
+  width:180px;
+}
+
+.tendances_article_text {
+  margin-top: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-left:20px;
+}
+
+/* Nos offres  */
+
+.offres_block {
+  flex-direction: column;
+
+}
+
+.laptop_offre {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
